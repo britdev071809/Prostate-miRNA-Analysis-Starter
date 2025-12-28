@@ -1,0 +1,44 @@
+# Data files (large, should be downloaded separately)
+*.txt.gz
+*.tar
+*.tar.gz
+*.csv
+*.tsv
+*.xlsx
+*.RData
+*.rda
+*.rds
+*.mat
+
+# Temporary files
+*.tmp
+*.swp
+*~
+.DS_Store
+
+# IDE specific files
+.Rhistory
+.Rproj.user/
+.vscode/
+.idea/
+
+# Output directories (optional - we keep them but ignore contents)
+/results/*
+!/results/.gitkeep
+/figures/*
+!/figures/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+env/
+venv/
+*.egg-info/
+dist/
+build/
+
+# R
+.Rproj
+*.Rproj
